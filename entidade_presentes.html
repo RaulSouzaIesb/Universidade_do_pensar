@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Entidades - Universidade do Pensar</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Entidades</h1>
+    </header>
+    <main>
+        <section id="classrooms">
+            <h2>Salas de Aula</h2>
+            <p>O sistema permite o cadastro de salas de aula, incluindo informações como prédio, número da sala e capacidade.</p>
+            <p><strong>Restrições de Integridade:</strong> O número da sala deve ser único dentro de cada prédio.</p>
+        </section>
+        <section id="departments">
+            <h2>Departamentos</h2>
+            <p>O sistema permite cadastrar departamentos, especificando o nome do departamento, o prédio associado e o orçamento.</p>
+            <p><strong>Restrições de Integridade:</strong> O nome do departamento deve ser único.</p>
+        </section>
+        <section id="courses">
+            <h2>Cursos</h2>
+            <p>O sistema permite o cadastro de cursos, com informações como código do curso, título, departamento responsável e número de créditos.</p>
+            <p><strong>Restrições de Integridade:</strong> O código do curso deve ser único.</p>
+        </section>
+        <section id="instructors">
+            <h2>Instrutores</h2>
+            <p>O sistema permite cadastrar instrutores, incluindo ID, nome, departamento e salário.</p>
+            <p><strong>Restrições de Integridade:</strong> O ID do instrutor deve ser único.</p>
+        </section>
+        <section id="course_sections">
+            <h2>Seções de Curso</h2>
+            <p>Permite o registro de seções de cursos, especificando o curso, ID da seção, semestre, ano, prédio, número da sala e identificador do horário.</p>
+            <p><strong>Restrições de Integridade:</strong> A combinação de curso, ID da seção, semestre e ano deve ser única.</p>
+        </section>
+        <section id="students">
+            <h2>Alunos</h2>
+            <p>Permite cadastrar alunos, fornecendo informações como ID, nome, departamento e créditos acumulados.</p>
+            <p><strong>Restrições de Integridade:</strong> O ID do aluno deve ser único.</p>
+        </section>
+        <section id="course_registrations">
+            <h2>Inscrições em Cursos</h2>
+            <p>O sistema permite o registro de inscrições em cursos pelos alunos, incluindo ID do aluno, código do curso, ID da seção, semestre, ano e nota.</p>
+            <p><strong>Restrições de Integridade:</strong> A combinação de aluno, curso, ID da seção, semestre e ano deve ser única.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Universidade do Pensar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
