@@ -23,14 +23,21 @@ header {
     color: white;
     padding: 10px;
     z-index: 1000; /* Garante que a navegação fique acima de outros elementos, exceto o cabeçalho */
-    margin: 0;
-    outline: 0;
-
 }
 
 .nav-login {
+  background-color: rgb(128, 128, 128);
   padding: 10px;
-  margin: 00px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.nav-login > ul > li > a{
+  color: white;
+}
+
+#nav-cadastro {
+  background-color: rgba(128, 128, 128, 0.795);
 }
 
 nav {
@@ -60,25 +67,21 @@ nav li {
     display: inline-block;
 }
 
-nav li a {
-    display: block;
-    padding: 10px 20px;
-    /*border: 2px solid grey;*/
-    /* outline: 3px solid grey; */
-    /* margin: 20px 30px; */
-    text-decoration: none;
-    color: #333;
-}
-
 nav li a:hover {
     background-color: #ddd;
 }
-/* 
-nav a[aria-current='page'] {
-  color: #000;
-  background-color: gray;
-} */
-  
+
+/* Estilo para os links dentro dos itens de lista na navegação */
+nav li a {
+  display: block; /* Define os links como blocos para ocupar toda a largura do contêiner pai */
+  padding: 10px 20px; /* Adiciona preenchimento interno aos links */
+  /*border: 2px solid grey;*/ /* Estilo da borda comentado */
+  /* outline: 3px solid grey; */ /* Estilo da linha de contorno comentado */
+  /* margin: 20px 30px; */ /* Margem comentada */
+  text-decoration: none; /* Remove a decoração de texto padrão dos links */
+  color: #333; /* Cor do texto dos links */
+}
+
 
 h1 {
   text-align: center;
