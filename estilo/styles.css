@@ -33,11 +33,11 @@ header {
 }
 
 .nav-login > ul > li > a{
-  color: white;
+  color: rgb(236, 232, 232);
 }
 
 #nav-cadastro {
-  background-color: rgba(128, 128, 128, 0.795);
+  background-color: rgba(128, 128, 128, 0.733)
 }
 
 nav {
